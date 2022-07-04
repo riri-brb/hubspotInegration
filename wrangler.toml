@@ -1,0 +1,4 @@
+name = "proj"
+main = "src/index.js"
+compatibility_date = "2022-07-04"
+account_id = "95229577537f5ccf897ef33b07a230b0"
