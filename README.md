@@ -8,5 +8,6 @@ Then, to authenticate Wrangler, run ``` wrangler login ```
 - New API key: Account setup => Integrations => API key => Genenrate new key
 - To make this API key available in your codebase, use the wrangler secret command to encrypt and store environment variables for use in your function,
 without revealing them to users.  ``` wrangler secret put HSPOT_API_KEY ```
+- In the wrangler.toml file of your project’s directory, add your Cloudflare account ID account_id = "yourAccountId". Run ```wrangler whoami``` to find your account id.
 
 Finally, publish the project using the command ``` wrangler publish ```
