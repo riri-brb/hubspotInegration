@@ -21,4 +21,4 @@ Or
 
 To create a custom property that can store a specific piece of data for contact records, use the [create new contact property API](https://legacydocs.hubspot.com/docs/methods/contacts/v2/create_contacts_property)
 
-Finally, publish the project using the command ``` wrangler publish ```
+Finally, publish the project using the command ``` wrangler publish ```, so you get the worker URL to test it.
